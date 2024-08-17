@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+:root{
+font-family : "Grey Qo"; 
+font-family: "Roboto";
+--bg-color: #111111;
+--text-color:#fff;
+--main-color: #333333;
+--other-color: #8e838e;
+--second-color: #1d1d1d;
+
+--h1-font: 6rem;
+--p-font:1.1rem;
+}
+header{
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+     background-color: var(--bg-color);
+    
+}
+
+.logo h2{
+color: var(--text-color);
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+   color:rgb(235, 13, 235);
+  }
+
+nav{
+    background-color:#111111;
+    display: flex;
+    justify-content: center;
+ }
+ul li{
+ list-style: none;
+ display: inline-block;
+ padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    font:var(--family);
+    color:rgb(235, 13, 235);
+    padding: 0 0 0 30px;
+ }
+
+ section{
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(images\ \(2\).jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .welcome-h2{
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 10px;
+ }
+
+ .fast{
+  background-color:rgb(254, 45, 213);  
+  }
+ .fast-text{
+    border: 1px solid black;
+    text-align: center;
+    width: 600px;
+    height: 110px;
+    margin-left: 200px;
+    padding: 10px;
+    margin-bottom: 30px; 
+    border-radius: 20px;
+    background: var(--text-color);
+ }
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box1 img{
+    text-align: center;
+    width: 260px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 240px;
+}
+ .box1{
+    border: 1px solid black;
+    width: 260px;
+    /* height: 385px; */
+    margin: 20px;
+    border-radius: 30px;
+ }
+ .box-text{
+    background-color: #111111;
+    height: 185px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+ }
+ .box1 h5{
+ text-align: center;
+ margin-bottom: 10px;
+ color: var(--text-color);
+ }
+ .box1 p{
+ padding: 10px;
+ color: var(--text-color);
+ }
+
+ .box1 button{
+    height: 25px;
+    width: 70px;
+    border-radius: 30px;
+    background-color: rgb(129, 80, 129);
+    color: var(--text-color);
+    border: none;
+    margin-left: 170px;
+   
+ }
+ .sit-div{
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 15px;
+ }
+ .sit-text{
+   border: 1px solid white;
+   background-color: white;
+   border-radius: 5px;
+   padding-left: 5px;
+   
+ }
+ .sit-div i{
+   color:rgb(138, 138, 232); 
+   font-size: 50px;
+   padding-right: 30px;
+ }  
+
+ .child{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+ }
+
+ .aro{
+   padding-left: 100px;
+   margin-bottom: 30px;
+ }
+ .aro2{
+   padding-left: 100px;
+   margin-bottom: 30px;
+ }
+ .child-2{
+   margin: 20px;
+ }
+ 
+ .child-2 h4{
+ color: var(--text-color);
+ }
+
+ .child-2 i{
+   font-size: 140px;
+   height: 30px;
+ }
+
+ .child-text{
+   display: flex;
+   border: 1px solid black;
+   width: 360px;
+   height: 250px;
+   padding: 10px;
+   background-color: #111111;
+   color: var(--text-color);
+   border-radius: 20px;
+ }
+ .child-text img{
+   height: 50px;
+   width: 50px;
+   border: 1px solid white;
+ }
+ 
+ .child button{
+   height: 30px;
+   width: 60px;
+   border-radius: 30px;
+   color: var(--text-color);
+   background:#8e838e;
+   margin-left: 220px;
+   border: none;
+   margin-top: 5px;
+ }
+ footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 90px;
+ }
+ .fot-text p{
+  text-align: center;
+  color:rgb(254, 45, 213); 
+ }
+ .fot-icon{
+  color:rgb(235, 13, 235);
+  padding: 10px;
+  font-size: 30px;
+ }
+ 
+
+ /*  */
+ @media (max-width: 3000px){
+  .fast-text{
+    margin-left: 650px;
+  }
+ }
+@media (max-width: 1000px){
+
+.fast-text{
+  margin: 0;
+ }
+
+.box{
+  display: flex;
+  flex-flow: wrap row;
+}
+
+.child-2{
+/* margin-left: 150px; */
+display: none;
+}
+
+}
+
+@media (max-width: 600px){
+
+  .fast-text {
+ 
+  }
+
+  .child-2{
+       
+  }
+}
